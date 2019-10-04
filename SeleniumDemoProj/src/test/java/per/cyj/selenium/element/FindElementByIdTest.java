@@ -7,7 +7,7 @@ import per.cyj.selenium.BaseTest;
 
 /**
  * @author chenyongjun
- * @apiNote 通过By.id(locatorName)定位页面元素
+ * @apiNote 通过By.id(id)定位页面元素
  * @since 2019-10-04
  */
 public class FindElementByIdTest extends BaseTest {
