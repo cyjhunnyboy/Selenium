@@ -17,6 +17,7 @@ public class FindElementByNameTest extends BaseTest {
 	
 	@Test(description = "通过By.name(locatorName)定位页面元素")
 	public void testFindElementByName() throws Exception {
+		driver.navigate().to(BASE_URL);
 		WebElement username = driver.findElement(By.name("username"));
 		WebElement password = driver.findElement(By.name("password"));
 		WebElement submit = driver.findElement(By.name("submit"));
