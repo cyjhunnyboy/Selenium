@@ -3,7 +3,6 @@ package per.cyj.selenium.element;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-
 import junit.framework.Assert;
 import per.cyj.selenium.BaseTest;
 
