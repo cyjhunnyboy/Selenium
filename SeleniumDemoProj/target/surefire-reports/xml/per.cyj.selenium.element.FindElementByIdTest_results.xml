@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="通过By.id(locatorName)定位页面元素"
+<testsuite name="通过By.id(id)定位页面元素"
            tests="1"
            failures="0"
            errors="0"

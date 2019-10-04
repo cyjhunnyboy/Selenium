@@ -1,28 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Selenium自动化测试教程" duration-ms="11979" started-at="2019-10-04T07:39:39Z" finished-at="2019-10-04T07:39:51Z">
+  <suite name="Selenium自动化测试教程" duration-ms="34472" started-at="2019-10-04T10:40:17Z" finished-at="2019-10-04T10:40:51Z">
     <groups>
       <group name="元素定位方式">
         <method signature="FindElementByIdTest.testFindElementById()[pri:0, instance:per.cyj.selenium.element.FindElementByIdTest@57baeedf]" name="testFindElementById" class="per.cyj.selenium.element.FindElementByIdTest"/>
       </group> <!-- 元素定位方式 -->
     </groups>
-    <test name="通过By.id(locatorName)定位页面元素" duration-ms="11979" started-at="2019-10-04T07:39:39Z" finished-at="2019-10-04T07:39:51Z">
+    <test name="通过By.id(id)定位页面元素" duration-ms="12112" started-at="2019-10-04T10:40:17Z" finished-at="2019-10-04T10:40:29Z">
       <class name="per.cyj.selenium.element.FindElementByIdTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:per.cyj.selenium.element.FindElementByIdTest@57baeedf]" name="init" is-config="true" duration-ms="9974" started-at="2019-10-04T07:39:39Z" finished-at="2019-10-04T07:39:49Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:per.cyj.selenium.element.FindElementByIdTest@57baeedf]" name="init" is-config="true" duration-ms="10097" started-at="2019-10-04T10:40:17Z" finished-at="2019-10-04T10:40:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testFindElementById()[pri:0, instance:per.cyj.selenium.element.FindElementByIdTest@57baeedf]" name="testFindElementById" duration-ms="1368" started-at="2019-10-04T07:39:49Z" description="通过By.id(locatorName)定位页面元素" finished-at="2019-10-04T07:39:50Z">
+        <test-method status="PASS" signature="testFindElementById()[pri:0, instance:per.cyj.selenium.element.FindElementByIdTest@57baeedf]" name="testFindElementById" duration-ms="1368" started-at="2019-10-04T10:40:27Z" description="通过By.id(id)定位页面元素" finished-at="2019-10-04T10:40:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindElementById -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:per.cyj.selenium.element.FindElementByIdTest@57baeedf]" name="quit" is-config="true" duration-ms="622" started-at="2019-10-04T07:39:50Z" finished-at="2019-10-04T07:39:51Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:per.cyj.selenium.element.FindElementByIdTest@57baeedf]" name="quit" is-config="true" duration-ms="630" started-at="2019-10-04T10:40:28Z" finished-at="2019-10-04T10:40:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- per.cyj.selenium.element.FindElementByIdTest -->
-    </test> <!-- 通过By.id(locatorName)定位页面元素 -->
+    </test> <!-- 通过By.id(id)定位页面元素 -->
+    <test name="通过By.name(name)定位页面元素" duration-ms="11281" started-at="2019-10-04T10:40:29Z" finished-at="2019-10-04T10:40:40Z">
+      <class name="per.cyj.selenium.element.FindElementByNameTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:per.cyj.selenium.element.FindElementByNameTest@1ce92674]" name="init" is-config="true" duration-ms="9217" started-at="2019-10-04T10:40:29Z" finished-at="2019-10-04T10:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testFindElementByName()[pri:0, instance:per.cyj.selenium.element.FindElementByNameTest@1ce92674]" name="testFindElementByName" duration-ms="1427" started-at="2019-10-04T10:40:38Z" description="通过By.name(name)定位页面元素" finished-at="2019-10-04T10:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindElementByName -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:per.cyj.selenium.element.FindElementByNameTest@1ce92674]" name="quit" is-config="true" duration-ms="636" started-at="2019-10-04T10:40:40Z" finished-at="2019-10-04T10:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- per.cyj.selenium.element.FindElementByNameTest -->
+    </test> <!-- 通过By.name(name)定位页面元素 -->
+    <test name="通过By.className(className)定位页面元素" duration-ms="11062" started-at="2019-10-04T10:40:40Z" finished-at="2019-10-04T10:40:51Z">
+      <class name="per.cyj.selenium.element.FindElementByClassNameTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:per.cyj.selenium.element.FindElementByClassNameTest@3f49dace]" name="init" is-config="true" duration-ms="9202" started-at="2019-10-04T10:40:40Z" finished-at="2019-10-04T10:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testFindElementByClassName()[pri:0, instance:per.cyj.selenium.element.FindElementByClassNameTest@3f49dace]" name="testFindElementByClassName" duration-ms="1224" started-at="2019-10-04T10:40:49Z" description="通过By.className(className)定位页面元素" finished-at="2019-10-04T10:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindElementByClassName -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:per.cyj.selenium.element.FindElementByClassNameTest@3f49dace]" name="quit" is-config="true" duration-ms="635" started-at="2019-10-04T10:40:51Z" finished-at="2019-10-04T10:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- per.cyj.selenium.element.FindElementByClassNameTest -->
+    </test> <!-- 通过By.className(className)定位页面元素 -->
   </suite> <!-- Selenium自动化测试教程 -->
 </testng-results>
