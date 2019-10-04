@@ -15,7 +15,7 @@ public class FindElementByClassNameTest extends BaseTest {
 
 	private static final String BASE_URL = "http://192.168.126.128:8080/selenium/html/class.html";
 	
-	@Test(description = "通过By.className(locatorName)定位页面元素")
+	@Test(description = "通过By.className(className)定位页面元素")
 	public void testFindElementByClassName() throws Exception {
 		driver.navigate().to(BASE_URL);
 		WebElement inputBox = driver.findElement(By.className("spread"));

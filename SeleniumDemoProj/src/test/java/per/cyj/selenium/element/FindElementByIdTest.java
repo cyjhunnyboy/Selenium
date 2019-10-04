@@ -14,7 +14,7 @@ public class FindElementByIdTest extends BaseTest {
 	
 	private static final String BASE_URL = "http://192.168.126.128:8080/selenium/html/id.html";
 	
-	@Test(description = "通过By.id(locatorName)定位页面元素", groups = {"元素定位方式"})
+	@Test(description = "通过By.id(id)定位页面元素", groups = {"元素定位方式"})
 	public void testFindElementById() throws Exception {
 		driver.navigate().to(BASE_URL);
 		WebElement userName = driver.findElement(By.id("username"));
