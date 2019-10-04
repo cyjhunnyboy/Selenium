@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium自动化测试教程">
+	<test name="通过By.id(locatorName)定位页面元素">
+		<classes>
+			<class name="per.cyj.selenium.element.FindElementByIdTest"/>
+		</classes>
+	</test>
+</suite>
