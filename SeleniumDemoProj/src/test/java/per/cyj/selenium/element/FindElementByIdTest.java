@@ -12,7 +12,7 @@ import per.cyj.selenium.BaseTest;
  */
 public class FindElementByIdTest extends BaseTest {
 	
-	private static final String BASE_URL = "http://192.168.126.128:8080/selenium/html/id.html";
+	private static final String BASE_URL = "http://192.168.1.168:8080/selenium/html/id.html";
 	
 	@Test(description = "通过By.id(id)定位页面元素", groups = {"元素定位方式"})
 	public void testFindElementById() throws Exception {

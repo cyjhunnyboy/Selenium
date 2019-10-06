@@ -13,7 +13,7 @@ import per.cyj.selenium.BaseTest;
  */
 public class FindElementByClassNameTest extends BaseTest {
 
-	private static final String BASE_URL = "http://192.168.126.128:8080/selenium/html/class.html";
+	private static final String BASE_URL = "http://192.168.1.168:8080/selenium/html/class.html";
 	
 	@Test(description = "通过By.className(className)定位页面元素")
 	public void testFindElementByClassName() throws Exception {
